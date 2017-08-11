@@ -1,0 +1,54 @@
+{
+  "keys": {
+    "accessKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "secretKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "applicationId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "params": [
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "dotToBracketNotation"
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "extendPredicates"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "options": {
+        "features": [
+          "opaqueFunctions"
+        ]
+      },
+      "name": "functionOutlining"
+    },
+    {
+      "name": "propertyKeysObfuscation"
+    },
+    {
+      "name": "regexObfuscation"
+    },
+    {
+      "options": {
+        "features": [
+          "opaqueSteps",
+          "deadClones"
+        ]
+      },
+      "name": "controlFlowFlattening"
+    },
+    {
+      "name": "booleanToAnything"
+    },
+    {
+      "name": "identifiersRenaming"
+    }
+  ],
+  "useRecommendedOrder": true
+}

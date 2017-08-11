@@ -1,0 +1,19 @@
+{
+  "keys": {
+    "accessKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "secretKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "applicationId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "params": [
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "identifiersRenaming",
+      "options": {
+        "mode": "SAFEST"
+      }
+    }
+  ],
+  "useRecommendedOrder": true
+}

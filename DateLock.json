@@ -1,0 +1,53 @@
+{
+  "keys": {
+    "accessKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "secretKey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "applicationId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "params": [
+    {
+      "name": "dateLock",
+      "options": {
+        "endDate": "yyyy/mm/dd",
+        "startDate": "yyyy/mm/dd"
+      }
+    },
+    {
+      "name": "whitespaceRemoval"
+    },
+    {
+      "name": "identifiersRenaming"
+    },
+    {
+      "name": "dotToBracketNotation"
+    },
+    {
+      "name": "deadCodeInjection"
+    },
+    {
+      "name": "stringConcealing"
+    },
+    {
+      "name": "functionReordering"
+    },
+    {
+      "name": "functionOutlining",
+      "options": {
+        "features": [
+          "opaqueFunctions"
+        ],
+        "freq": 1
+      }
+    },
+    {
+      "name": "propertyKeysObfuscation"
+    },
+    {
+      "name": "regexObfuscation"
+    },
+    {
+      "name": "booleanToAnything"
+    }
+  ],
+  "useRecommendedOrder": true
+}
